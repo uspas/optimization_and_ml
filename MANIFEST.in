@@ -1,0 +1,3 @@
+recursive-include uspas_ml/accelerator_toy_models/data/ *npy *pth
+include README.md
+include requirements.txt
