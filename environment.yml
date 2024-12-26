@@ -3,22 +3,14 @@ name: uspas-ml
 channels:
   - conda-forge
 dependencies:
-  - python=3.8
+  - python=3.9
   - ipykernel
   - ipywidgets
   - jupyterlab
-  - pytorch
-  - botorch
-  - pygmo
   - matplotlib 
   - scipy
   - scikit-learn
-  - pandas
-  - seaborn
-    # Documentation:
-  - mkdocs
-  - mkdocs-material
-  - mkdocs-jupyter
+  - xopt
   - pip
   - pip:
-    - git+git://github.com/uspas/2021_optimization_and_ml
+      - cheetah-accelerator
