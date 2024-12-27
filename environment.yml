@@ -1,16 +1,19 @@
 # conda env create -f environment.yml
 name: uspas-ml
 channels:
+  - pytorch
   - conda-forge
 dependencies:
   - python=3.9
   - ipykernel
   - ipywidgets
   - jupyterlab
+  - notebook
   - matplotlib 
   - scipy
   - scikit-learn
   - xopt
   - pip
+  - numpy
   - pip:
       - cheetah-accelerator
