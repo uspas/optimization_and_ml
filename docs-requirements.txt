@@ -1,5 +1,0 @@
-mkdocs
-mkdocstrings
-mkdocs-jupyter
-mkdocs-material
-mkdocs-minify-plugin
